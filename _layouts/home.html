@@ -12,12 +12,12 @@ layout: default
         <div class="intro-text">
           <div class="intro-lead-in">{{ site.data.home.intro.lead-in }}</div>
           <div class="intro-heading text-uppercase">{{ site.data.home.intro.heading }}</div>
-          <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{ site.data.home.intro.btn }}</a>
+          <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">{{ site.data.home.intro.btn }}</a> -->
         </div>
       </div>
     </header>
 
-    <!-- Services -->
+    <!-- Services
     <section id="services">
       <div class="container">
         <div class="row">
@@ -41,7 +41,7 @@ layout: default
         {% assign ws = '' %}
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
@@ -59,15 +59,15 @@ layout: default
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ project.id | replace: '/projects/', '' }}">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
+                  <i class="fa fa-shopping-cart fa-3x"></i>
                 </div>
               </div>
               <img class="img-fluid" src="{{ assets_path }}{{ project.thumbnail }}" alt="">
             </a>
-            <div class="portfolio-caption">
+            <!--<div class="portfolio-caption">
               <h4>{{ project.client }}</h4>
               <p class="text-muted">{{ project.category }}</p>
-            </div>
+            </div> -->
           </div>
           {%- endfor -%}
         {% assign ws = '' %}
@@ -103,6 +103,7 @@ layout: default
                   </div>
                 </div>
               </li>
+             <!--
               {%- endfor -%}
               {% assign ws = '' %}
               <li class="timeline-inverted">
@@ -111,14 +112,14 @@ layout: default
                     <br>{{ site.data.home.about.end2 }}
                     <br>{{ site.data.home.about.end3 }}</h4>
                 </div>
-              </li>
+              </li> -->
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Team -->
+    <!-- Team
     <section class="bg-light" id="team">
       <div class="container">
         <div class="row">
@@ -157,9 +158,9 @@ layout: default
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- Clients -->
+    <!-- Clients
     <section class="py-5">
       <div class="container">
         <div class="row">
@@ -174,7 +175,7 @@ layout: default
         {% assign ws = '' %}
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Contact -->
     <section id="contact">
