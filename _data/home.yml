@@ -1,114 +1,22 @@
 intro:
-  lead-in: "Welcome To Our Studio!"
-  heading: It's Nice To Meet You
+  lead-in: "My world of books!"
+  heading: "I know the journey is long, don't you stop, just read along & hop hop hop !!!"
   btn: Tell Me More
-
-services:
-  heading: Services
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  service:
-    - icon: fa fa-shopping-cart
-      heading: E-Commerce
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-laptop
-      heading: Responsive Design
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
-    - icon: fa fa-lock
-      heading: Web Security
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.
 
 portfolio:
   heading: Books
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  subheading: learn about my books.
 
-about:
-  heading: About me
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  timeline:
-    - image: img/about/anitha_profile.jpg
-  #    date: 2009-2011
-      title: Our Humble Beginnings
-      text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-  #  - image: img/about/2.jpg
-  #    date: March 2011
-  #    title: An Agency is Born
-  #    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-  #  - image: img/about/3.jpg
-  #    date: December 2012
-  #    title: Transition to Full Service
-  #    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-  #  - image: img/about/4.jpg
-  #    date: July 2014
-  #    title: Phase Two Expansion
-  #    text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
-
-  #end1: Be Part
-  #end2: Of Our
-  #end3: Story!
 
 team:
-  heading: Our Amazing Team
-  subheading: Lorem ipsum dolor sit amet consectetur.
+  heading: About me
+  subheading: Author, Illustrator & Artist.
   members:
-    - name: Kay Garland
-      role: Lead Designer
-      img: img/team/1.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#" 
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
-        
-    - name: Larry Parker
-      role: Lead Marketer
-      img: img/team/2.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
+    - img: img/about/anitha_profile.jpg
+      text: "Anitha Rathod is an author and illustrator who believes in enriching kids’ lives through interesting stories with lively pictures.  She is a graduate from the Indian Institute of Management - Lucknow [IIM-L] with an MBA degree, specialised in Human Resources and Finance. She worked with corporates for about 9 years.
+<br/><br/> Anitha quit her corporate career to pursue her passion for creating books that bring the joy of reading, give wings to creativity and imagination, and at the same time sensitise today's children on various topics. Writing stories for children gives her immense pleasure and she cherishes the moments when kids enjoy every bit of her stories and sink into the imaginative world.
 
-    - name: Diana Pertersen
-      role: Lead Developer
-      img: img/team/3.jpg
-      social-buttons:
-        - icon: fa fa-twitter
-          url: "#"
-        - icon: fa fa-facebook
-          url: "#"
-        - icon: fa fa-linkedin
-          url: "#"
+<br/><br/>She enjoys writing articles on various topics ranging from entrepreneurship to religious-tolerance. As an illustrator, she continues to bring her characters to life through her lively and colourful illustrations.
 
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
+<br/><br/>When she is not writing or illustrating, she loves to spend time with her 2 young kids. She is also a marathon runner and enjoys swimming."
 
-clients:
-  - img: img/logos/envato.jpg
-    url: "#"
-  - img: img/logos/designmodo.jpg
-    url: "#"
-  - img: img/logos/themeforest.jpg
-    url: "#"
-  - img: img/logos/creative-market.jpg   
-    url: "#"
-
-contact:
-  heading: Contact Us
-  subheading: Lorem ipsum dolor sit amet consectetur.
-  name: Your Name *
-  name-required: Please enter your name.
-  email: Your Email *
-  email-required: Please enter your email address.
-  phone: Your Phone *
-  phone-required: Please enter your phone number.
-  message: Your Message *
-  message-required: Please enter a message.
-  btn: Send Message
-
-  js-url: '././mail/contact_me.php'
-  js-success: 'Your message has been sent. '
-  js-error: 'Sorry " + firstName + ", it seems that my mail server is not responding. Please try again later!'
-  js-error-min: 'Sorry "+i+", it seems that my mail server is not responding. Please try again later!'

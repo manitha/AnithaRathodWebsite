@@ -54,7 +54,7 @@
     </nav>
 {{ content }}
     <!-- Footer -->
-    <footer>
+    <footer id="contact">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
@@ -114,12 +114,12 @@
               </div>
             </div>
             <div class="row">
-              <div class="col-lg-6 mx-auto">
+              <div class="col-lg-4 mx-auto">
                 <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt="">
               </div>
-              <div class="col-lg-6 mx-auto">
+              <div class="col-lg-8 mx-auto">
+                <h4 class="section-subheading text-muted">Description </h4>
                 <div class="modal-body">
-                  <p class="item-intro text-muted">Description </p>
                   {% assign ws = '' %}
                   {{- project.content -}}
                   <!--{% assign ws = '' %}                  <ul class="list-inline">
