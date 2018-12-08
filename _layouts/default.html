@@ -133,9 +133,9 @@
                 {%- if project.reviews -%}
                 <h4 class="section-subheading text-muted">Reviews </h4>
                 <div class="modal-body">
-                  {%- for reviews in project.reviews -%}
-                  <p class="section-subheading text-muted" style="font-style:italic"> "{{ reviews.review }}" -
-                          <a href="{{review.url}}">{{ reviews.by }}</a></p>
+                  {%- for review in project.reviews -%}
+                  <p class="section-subheading text-muted" style="font-style:italic"> "{{ review.review }}" -
+                          <a href="{{review.url}}">{{ review.by }}</a></p>
                   {%- endfor -%}
                 </div>
                 {%- endif -%}
