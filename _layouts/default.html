@@ -116,6 +116,7 @@
             <div class="row">
               <div class="col-lg-4 mx-auto">
                 <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt="">
+                <a class="btn btn-primary" href="{{ project.link }}" target="_blank">{{ project.status }}</a>
               </div>
               <div class="col-lg-8 mx-auto">
                 <h4 class="section-subheading text-muted">Description </h4>
@@ -127,8 +128,17 @@
                     <li>{{ site.data.default.modal.client-string }}{{ project.client }}</li>
                     <li>{{ site.data.default.modal.category-string }}{{ project.category }}</li>
                   </ul> -->
-                  <a class="btn btn-primary" href="{{ project.link }}" target="_blank">{{ project.status }}</a>
+
                 </div>
+                {%- if project.reviews -%}
+                <h4 class="section-subheading text-muted">Reviews </h4>
+                <div class="modal-body">
+                  {%- for reviews in project.reviews -%}
+                  <p class="section-subheading text-muted" style="font-style:italic"> "{{ reviews.review }}" -
+                          <a href="{{review.url}}">{{ reviews.by }}</a></p>
+                  {%- endfor -%}
+                </div>
+                {%- endif -%}
               </div>
             </div>
           </div>
