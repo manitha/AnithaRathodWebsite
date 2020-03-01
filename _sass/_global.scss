@@ -5,6 +5,7 @@ body {
 }
 
 p {
+  font-size: 20px;
   line-height: 1.75;
 }
 
@@ -35,13 +36,15 @@ section {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 15px;
+    color: darken($primary, 10%);
   }
   h3.section-subheading {
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 400;
     font-style: italic;
     margin-bottom: 35px;
     text-transform: none;
+    color: $primary;
     @include serif-font;
   }
 }

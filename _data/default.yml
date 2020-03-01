@@ -3,14 +3,14 @@ brand:
 menu-string: Menu
 
 nav:
-  #- title: Services
-  #  url: '#services'
   - title: Books
     url: '#portfolio'
   - title: About Me
     url: '#about'
-  #- title: Team
-  #  url: '#team'
+  - title: Author Visits
+    url: '#visits'
+  - title: Downloads
+    url: '#downloads'
   - title: Contact
     url: '#contact'
 

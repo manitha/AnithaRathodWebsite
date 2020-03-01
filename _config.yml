@@ -8,8 +8,8 @@ sass:
 assets_path: '' 
 
 exclude:
-  - vendor
-  - bundle
+  - README.md
+  - vendor/bundle
 
 collections:
   projects:

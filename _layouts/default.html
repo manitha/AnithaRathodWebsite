@@ -15,15 +15,12 @@
     <title>{{ site.title }}</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{ assets_path }}vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
     <!-- Custom fonts for this template -->
     <link href="{{ assets_path }}vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-
+    <link href="https://fonts.googleapis.com/css?family=Amaranth|Chewy|Indie+Flower|Merienda+One|Nanum+Brush+Script&display=swap" rel="stylesheet">
+    
     <!-- Custom styles for this template -->
     <link href="{{ assets_path }}css/agency.min.css" rel="stylesheet">
 
@@ -173,6 +170,28 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-126128769-1');
+
+      (function ($) {
+        $(document).ready(function(){
+
+          // hide .navbar first
+          $(".navbar").hide();
+
+          // fade in .navbar
+          $(function () {
+              $(window).scroll(function () {
+
+                      // set distance user needs to scroll before we start fadeIn
+                  if ($(this).scrollTop() > 100) {
+                      $('.navbar').fadeIn();
+                  } else {
+                      $('.navbar').fadeOut();
+                  }
+              });
+          });
+
+        });
+      }(jQuery));
     </script>
 
   </body>
