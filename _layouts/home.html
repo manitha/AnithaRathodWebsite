@@ -42,6 +42,7 @@ layout: default
         <div class="row col-md-7">
           {%- for project in site.projects -%}
           {% assign ws = '' %}
+          {% if project.skip == False %}
           <div class="col-md-3 col-sm-3 portfolio-item">
             <a class="portfolio-link" data-toggle="modal" href="#portfolioModal{{ project.id | replace: '/projects/', '' }}">
               <div class="portfolio-hover">
@@ -56,6 +57,7 @@ layout: default
               <p class="text-muted">{{ project.category }}</p>
             </div> -->
           </div>
+          {% endif %}
           {%- endfor -%}
         {% assign ws = '' %}
         </div>
