@@ -7,5 +7,9 @@ sass:
 
 assets_path: '' 
 
+exclude:
+  - vendor
+  - bundle
+
 collections:
   projects:
