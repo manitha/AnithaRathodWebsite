@@ -76,7 +76,7 @@ layout: default
         <div class="row">
           {%- for member in site.data.home.team.members -%}
           {% assign ws = '' %}
-          <div class="col-sm-4">
+          <div class="col-sm-4 mx-auto">
             <div class="team-member">
               <img class="mx-auto rounded-circle" src="{{ assets_path }}{{ member.img }}" alt="">
             </div>
@@ -90,7 +90,25 @@ layout: default
       </div>
     </section>
     
-
+    <!-- Team -->
+    <section id="visit">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.home.visit.heading }}</h2>
+            <!-- <h3 class="section-subheading">{{ site.data.home.visit.subheading }}</h3> -->
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <p class="large">{{ site.data.home.visit.text }}</p>
+          </div>
+          <div class="col-lg-12 mx-auto">
+            <p class="large">{{ site.data.home.visit.schedule }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact
     <section id="contact">
