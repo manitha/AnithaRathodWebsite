@@ -90,7 +90,7 @@ layout: default
       </div>
     </section>
     
-    <!-- Team -->
+    <!-- Author Visits -->
     <section id="visit">
       <div class="container">
         <div class="row">
@@ -105,6 +105,71 @@ layout: default
           </div>
           <div class="col-lg-12 mx-auto">
             <p class="large">{{ site.data.home.visit.schedule }}</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Download -->
+     <section id="downloads">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">{{ site.data.home.downloads.heading }}</h2>
+            <h3 class="section-subheading">{{ site.data.home.downloads.subheading }}</h3>
+          </div>
+        </div>
+        <div class="row" style="padding-bottom: 20px;">
+          <div class="col-lg-3 mx-auto">
+            <ul class="navbar-nav">
+              {%- for activity in site.data.home.downloads.activities -%}
+              {% assign ws = '' %}
+                <li class="nav-item">
+                  <a class="nav-link" href="#{{activity.id}}" 
+                    onclick="
+                      {%- for loopactivity in site.data.home.downloads.activities -%} 
+                        {% if loopactivity.id == activity.id %}
+                          $('#{{loopactivity.id}}').toggle();
+                          $('#activityhead').hide()
+                        {%else %}
+                          $('#{{loopactivity.id}}').hide();
+                          $('#activityhead').hide()
+                        {% endif %}
+                      {%- endfor -%}
+                      ">{{ activity.name }}</a>
+                </li>
+              {%- endfor -%}
+              {% assign ws = '' %}
+            </ul>
+          </div>
+          <div class="col-lg-9 mx-auto">
+            <div id="activityhead" style="display: block; padding-top: 35px;">
+              <blockquote class="blockquote" >
+                <h2 class="text-left">{{ site.data.home.downloads.masthead }}</h2>
+                <h3 class="text-center"> by {{ site.data.home.downloads.quoteby }}</h3>
+              </blockquote>
+            </div>
+            {%- for activity in site.data.home.downloads.activities -%}
+            {% assign ws = '' %}
+              <div id="{{activity.id}}" style="display: none">
+                <!-- <p>{{ site.data.home.downloads.subheading1 }}</p> -->
+                  {%- for print in activity.printlist -%}
+                  {% assign ws = '' %}
+                    <div class="activities-item">
+                      <div>
+                        <a href="{{ print.url }}" >
+                          <img class="mx-auto rounded-circle" src={{print.icon}}>
+                        </a>
+                      </div>  
+                      <div>
+                        <a href="{{ print.url }}" >{{ print.text }}</a>
+                      </div>                      
+                    </div>
+                  {%- endfor -%}
+                  {% assign ws = '' %}         
+              </div>
+            {%- endfor -%}
+            {% assign ws = '' %}
           </div>
         </div>
       </div>

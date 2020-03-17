@@ -45,3 +45,127 @@ visit:
 
           "
 
+downloads:
+  heading: Activities to print
+  subheading: Enjoy, Learn & Have Fun 
+  subheading1: Puzzles
+  subheading2: Coloring Pages
+  masthead: "If it's not fun, you're not doing it right"
+  quoteby: "Bob Basso"
+  activities:    
+    - activity:
+      name: colouring
+      id: colouring
+      printlist:
+        - url: "activity/bolacoloringpage1.pdf"
+          icon: img/icons/bolacoloring1.jpg
+          text: "Bola the Kite"
+        - url: "activity/bolacoloringpage2.pdf"
+          icon: img/icons/bolacoloring2.jpg
+          text: "Sankranti"
+        - url: "activity/bolacoloringpage3.pdf"
+          icon: img/icons/bolacoloring3.jpg
+          text: "Kite flying"
+        - url: "activity/bolacoloringpage4.pdf"
+          icon: img/icons/bolacoloring4.jpg
+          text: "Namasate"
+        - url: "activity/diwalicoloringpage1.pdf"
+          icon: img/icons/diwalicoloring1.jpg
+          text: "Kite"
+        - url: "activity/diwalicoloringpage2.pdf"
+          icon: img/icons/diwalicoloring2.jpg
+          text: "Kite"
+        - url: "activity/diwalicoloringpage3.pdf"
+          icon: img/icons/diwalicoloring3.jpg
+          text: "Kite"
+        - url: "activity/diwalicoloringpage4.pdf"
+          icon: img/icons/diwalicoloring4.jpg
+          text: "Kite"
+        - url: "activity/holicoloringpage1.pdf"
+          icon: img/icons/holicoloring1.jpg
+          text: "Holi"
+        - url: "activity/holicoloringpage2.pdf"
+          icon: img/icons/holicoloring2.jpg
+          text: "Holi"
+        - url: "activity/holicoloringpage3.pdf"
+          icon: img/icons/holicoloring3.jpg
+          text: "Holi"
+        - url: "activity/holicoloringpage4.pdf"
+          icon: img/icons/holicoloring4.jpg
+          text: "Holi"
+        - url: "activity/holicoloringpage5.pdf"
+          icon: img/icons/holicoloring5.jpg
+          text: "Holi"
+        - url: "activity/holicoloringpage6.pdf"
+          icon: img/icons/holicoloring6.jpg
+          text: "Holi"
+        - url: "activity/messybuncoloringpage1.pdf"
+          icon: img/icons/messybuncoloring1.jpg
+          text: "Messy bun princess"
+        - url: "activity/messybuncoloringpage2.pdf"
+          icon: img/icons/messybuncoloring2.jpg
+          text: "Messy bun princess"
+        - url: "activity/mikucoloringpage1.pdf"
+          icon: img/icons/mikucoloring1.jpg
+          text: "Miku"
+        - url: "activity/mikucoloringpage2.pdf"
+          icon: img/icons/mikucoloring2.jpg
+          text: "Miku"
+        - url: "activity/mikucoloringpage2.pdf"
+          icon: img/icons/mikucoloring2.jpg
+          text: "Miku"
+        - url: "activity/ramadancoloringpage1.pdf"
+          icon: img/icons/ramadancoloring1.jpg
+          text: "Ramadan"
+        - url: "activity/ramadancoloringpage2.pdf"
+          icon: img/icons/ramadancoloring2.jpg
+          text: "Ramadan"
+        - url: "activity/ramadancoloringpage3.pdf"
+          icon: img/icons/ramadancoloring3.jpg
+          text: "Ramadan"
+    
+    - activity:
+      name: Word Search
+      id: WordSearch
+      printlist:
+        - url: "activity/wordsearchbola.pdf"
+          text: "Bola"
+        - url: "activity/wordsearchdiwali.pdf"
+          text: "Diwali"
+        - url: "activity/wordsearchholi.pdf"
+          text: "Holi"
+        - url: "activity/wordsearchramadan.pdf"
+          text: "Ramadan"
+        - url: "activity/wordsearchmessybun.pdf"
+          text: "Messy bun princess"
+        - url: "activity/wordsearchmiku.pdf"
+          text: "Miku"
+        - url: "activity/wordsearchshelly.pdf"
+          text: "Shelly"
+        - url: "activity/wordsearchsilentt.pdf"
+          text: "Silent T"
+        
+    - activity:
+      name: Rangoli
+      id: Rangoli
+      printlist:
+        - url: "activity/rangolidesign1.pdf"
+          text: "Rangoli 1"
+        - url: "activity/rangolidesign2.pdf"
+          text: "Rangoli 2"
+        - url: "activity/rangolidesign3.pdf"
+          text: "Rangoli 3"
+        - url: "activity/rangolidesign4.pdf"
+          text: "Rangoli 4"
+        - url: "activity/rangolidesign5.pdf"
+          text: "Rangoli 5"
+        - url: "activity/rangolidesign6.pdf"
+          text: "Rangoli 6"
+        - url: "activity/rangolidesign7.pdf"
+          text: "Rangoli 7"
+        - url: "activity/rangolidesign8.pdf"
+          text: "Rangoli 8"
+        - url: "activity/rangolidesign9.pdf"
+          text: "Rangoli 9"
+        
+        

@@ -6,6 +6,50 @@
   background-size: 100% 100%;
   color: white;
 }
+#downloads{
+  background-image: url('../img/anitha_bg4.jpg');
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 600px;
+  color: white;
+  h2, h3 {
+    color: white;
+  }
+  p {
+    text-decoration: underline;
+    margin: 0px;
+  }
+  .navbar-nav {
+    .nav-item {
+      .nav-link {
+        font-size: 28px;
+        padding: 0.75em 0;
+        letter-spacing: 1px;
+        color: white;
+        text-decoration: underline wavy $primary;
+        @include heading-font;
+        &.active,
+        &:hover {
+          color: $primary;  
+        }
+      }
+    }
+  }
+  .activities-item {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    margin: 8px 12px;
+    vertical-align: top;
+    a {
+      color: white;
+      &:hover {
+        color: $primary;  
+      }
+    }
+  }
+}
 .team-member {
   margin-bottom: 50px;
   text-align: center;
