@@ -129,43 +129,60 @@ downloads:
       id: WordSearch
       printlist:
         - url: "activity/wordsearchbola.pdf"
-          text: "Bola"
+          icon: img/icons/wordsearch2.jpg
+          text: "Bola the kite"
         - url: "activity/wordsearchdiwali.pdf"
+          icon: img/icons/wordsearch10.jpg
           text: "Diwali"
         - url: "activity/wordsearchholi.pdf"
+          icon: img/icons/wordsearch11.jpg
           text: "Holi"
         - url: "activity/wordsearchramadan.pdf"
+          icon: img/icons/wordsearch12.jpg
           text: "Ramadan"
         - url: "activity/wordsearchmessybun.pdf"
+          icon: img/icons/wordsearch13.jpg
           text: "Messy bun princess"
         - url: "activity/wordsearchmiku.pdf"
-          text: "Miku"
+          icon: img/icons/wordsearch14.jpg
+          text: "Miku find me"
         - url: "activity/wordsearchshelly.pdf"
-          text: "Shelly"
+          icon: img/icons/wordsearch15.jpg
+          text: "Shelly's stocking"
         - url: "activity/wordsearchsilentt.pdf"
-          text: "Silent T"
+          icon: img/icons/wordsearch11.jpg
+          text: "The Silent T"
         
     - activity:
       name: Rangoli
       id: Rangoli
       printlist:
         - url: "activity/rangolidesign1.pdf"
+          icon: img/icons/rangolidesign1.jpg
           text: "Rangoli 1"
         - url: "activity/rangolidesign2.pdf"
+          icon: img/icons/rangolidesign2.jpg
           text: "Rangoli 2"
         - url: "activity/rangolidesign3.pdf"
+          icon: img/icons/rangolidesign3.jpg
           text: "Rangoli 3"
         - url: "activity/rangolidesign4.pdf"
+          icon: img/icons/rangolidesign4.jpg
           text: "Rangoli 4"
         - url: "activity/rangolidesign5.pdf"
+          icon: img/icons/rangolidesign5.jpg
           text: "Rangoli 5"
         - url: "activity/rangolidesign6.pdf"
+          icon: img/icons/rangolidesign6.jpg
           text: "Rangoli 6"
         - url: "activity/rangolidesign7.pdf"
+          icon: img/icons/rangolidesign7.jpg
           text: "Rangoli 7"
         - url: "activity/rangolidesign8.pdf"
+          icon: img/icons/rangolidesign8.jpg
           text: "Rangoli 8"
         - url: "activity/rangolidesign9.pdf"
+          icon: img/icons/rangolidesign9.jpg
           text: "Rangoli 9"
         
         
