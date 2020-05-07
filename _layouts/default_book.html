@@ -29,24 +29,14 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark book_nav" id="mainNav2">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="/">{{ site.data.default.brand.name }}</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           {{ site.data.default.menu-string }}
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav text-uppercase ml-auto">
-            {%- for link in site.data.default.nav -%}
-            {% assign ws = '' %}
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
-            </li>
-            {%- endfor -%}
-          {% assign ws = '' %}
-          </ul>
-        </div>
+        
       </div>
     </nav>
 {{ content }}
@@ -85,68 +75,6 @@
       </div>
     </footer>
 
-    {% assign ws = '' %}
-    {%- if page.layout == 'home' -%}
-    <!-- Portfolio Modals -->
-    {%- for project in site.projects -%}
-{% assign ws = '' %}
-
-    <!-- Modal {{ project.id | replace: '/projects/', '' }} -->
-    <div class="portfolio-modal modal fade" id="portfolioModal{{ project.id | replace: '/projects/', '' }}" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3 class="text-uppercase">{{ project.title }}</h3>
-                  <!-- <p class="item-intro text-muted">{{ project.description }}</p> -->
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 mx-auto">
-                <img class="img-fluid d-block mx-auto" src="{{ assets_path }}{{ project.image }}" alt="">
-                <a class="btn btn-primary" href="{{ project.link }}" target="_blank">{{ project.status }}</a>
-              </div>
-              <div class="col-lg-8 mx-auto">
-                <h4 class="section-subheading text-muted">Description </h4>
-                <div class="modal-body">
-                  {% assign ws = '' %}
-                  {{- project.content -}}
-                  <!--{% assign ws = '' %}                  <ul class="list-inline">
-                    <li>{{ site.data.default.modal.date-string }}{{ project.date | date: "%B %Y" }}</li>
-                    <li>{{ site.data.default.modal.client-string }}{{ project.client }}</li>
-                    <li>{{ site.data.default.modal.category-string }}{{ project.category }}</li>
-                  </ul> -->
-
-                </div>
-                {%- if project.reviews -%}
-                <h4 class="section-subheading text-muted">Reviews </h4>
-                <div class="modal-body">
-                  {%- for review in project.reviews -%}
-                  <p class="section-subheading text-muted" style="font-style:italic"> "{{ review.review }}" -
-                          <a href="{{review.url}}">{{ review.by }}</a></p>
-                  {%- endfor -%}
-                </div>
-                {%- endif -%}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {%- endfor -%}
-
-    {%- endif -%}
-    {% assign ws = '' %}
 
     <!-- Bootstrap core JavaScript -->
     <script src="{{ assets_path }}vendor/jquery/jquery.min.js"></script>
@@ -158,6 +86,10 @@
     <!-- Contact form JavaScript -->
     <script src="{{ assets_path }}js/jqBootstrapValidation.js"></script>
     <script src="{{ assets_path }}js/contact_me.js"></script>
+
+    <!-- Turnjs-->
+    <script src="{{ assets_path }}vendor/turnjs/turn.min.js"></script>
+    <script src="{{ assets_path }}vendor/turnjs/scissor.min.js"></script>
 
     <!-- Custom scripts for this template -->
     <script src="{{ assets_path }}js/agency.min.js"></script>
@@ -175,23 +107,16 @@
         $(document).ready(function(){
 
           // hide .navbar first
-          $(".navbar").hide();
-
-          // fade in .navbar
-          $(function () {
-              $(window).scroll(function () {
-
-                      // set distance user needs to scroll before we start fadeIn
-                  if ($(this).scrollTop() > 100) {
-                      $('.navbar').fadeIn();
-                  } else {
-                      $('.navbar').fadeOut();
-                  }
-              });
-          });
+          $(".navbar").show();
 
         });
       }(jQuery));
+
+        $("#flipbook").turn({
+          width: 800,
+          height: 900,
+          autoCenter: true
+        });
     </script>
 
   </body>

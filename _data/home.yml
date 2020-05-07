@@ -45,6 +45,43 @@ visit:
 
           "
 
+book:
+  heading: Book 
+  subheading: Author, Illustrator & Artist.
+  thumb: img/books/corona/coronacover_thumbnail.jpg
+  pages:
+    - img: img/books/corona/corona_illustration1.jpg
+    - img: img/books/corona/corona_illustration2.jpg
+    - img: img/books/corona/corona_illustration3.jpg
+    - img: img/books/corona/corona_illustration4.jpg
+    - img: img/books/corona/corona_illustration5.jpg
+    - img: img/books/corona/corona_illustration6.jpg
+    - img: img/books/corona/corona_illustration7.jpg
+    - img: img/books/corona/corona_illustration8.jpg
+    - img: img/books/corona/corona_illustration9.jpg
+    - img: img/books/corona/corona_illustration10.jpg
+    - img: img/books/corona/corona_illustration11.jpg
+    - img: img/books/corona/corona_illustration12.jpg
+    - img: img/books/corona/corona_illustration13.jpg
+    - img: img/books/corona/corona_illustration14.jpg
+    - img: img/books/corona/corona_illustration15.jpg
+    - img: img/books/corona/corona_illustration16.jpg
+    - img: img/books/corona/corona_illustration17.jpg
+    - img: img/books/corona/corona_illustration18.jpg
+    - img: img/books/corona/corona_illustration19.jpg
+    - img: img/books/corona/corona_illustration20.jpg
+    - img: img/books/corona/corona_illustration21.jpg
+    - img: img/books/corona/corona_illustration22.jpg
+    - img: img/books/corona/corona_illustration23.jpg
+    - img: img/books/corona/corona_illustration24.jpg
+    - img: img/books/corona/corona_illustration25.jpg
+    - img: img/books/corona/corona_illustration26.jpg
+    - img: img/books/corona/corona_illustration27.jpg
+    - img: img/books/corona/corona_illustration28.jpg
+    - img: img/books/corona/corona_backcover.jpg
+
+
+
 downloads:
   heading: Activities to print
   subheading: Enjoy, Learn & Have Fun 
