@@ -154,6 +154,12 @@
   box-shadow:inset 0 0 5px #666;
 }
 
+@media only screen and (max-width: 480px) {
+  #flipbook{
+    width:450px;
+    height:450px;
+  }
+}
 @media(min-width:768px) {
   #flipbook{
     width:700px;
