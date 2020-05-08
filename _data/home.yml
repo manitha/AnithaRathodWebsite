@@ -49,6 +49,7 @@ book:
   heading: Book 
   subheading: Author, Illustrator & Artist.
   thumb: img/books/corona/coronacover_thumbnail.jpg
+  cover: img/books/corona/corona_coverpage.jpg
   pages:
     - img: img/books/corona/corona_illustration1.jpg
     - img: img/books/corona/corona_illustration2.jpg

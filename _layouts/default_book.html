@@ -111,10 +111,19 @@
 
         });
       }(jQuery));
+      $(document).ready(function() {
+          var a = window.innerHeight - 100;
+          $('#fbook').css('height',a);
+      });
+
+      $(window).resize(function(){
+          var b = window.innerHeight - 100;
+          $('#fbook').css('height',b);
+      });
 
         $("#flipbook").turn({
-          width: 800,
-          height: 900,
+          //width: 1000,
+          //height: 500,
           autoCenter: true
         });
     </script>
